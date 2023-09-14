@@ -1,5 +1,3 @@
-# Power-BI-Project
-
 # Power BI Interactive Sales Dashboard
 
 Welcome to the Power BI Interactive Sales Dashboard project! In this repository, you will find a comprehensive dashboard that allows you to effortlessly track and analyze online sales data. This powerful tool provides a holistic view of your sales performance, enabling you to make data-driven decisions with ease.

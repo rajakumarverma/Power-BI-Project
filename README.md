@@ -1,7 +1,5 @@
 # Data Analysis and Business Intelligence with Power BI
 
-![Power BI Logo](https://powerbi.microsoft.com/images/default-source/documentation/pbi-logo-small.png)
-
 ## Project Description
 
 Welcome to the Data Analysis and Business Intelligence project using Power BI. This repository is dedicated to showcasing the power of Power BI in the fields of data analysis, business intelligence, and data science. Power BI is a versatile tool developed by Microsoft that empowers professionals to extract valuable insights from data.
@@ -52,3 +50,5 @@ We would like to acknowledge the tools, libraries, and resources that have been 
 - [Raja Kumar Verma](mailto:rajakumarverma6@gmail.com) - [GitHub Profile](https://github.com/rajakumarverma)
 
 If you have any questions, suggestions, or feedback, please don't hesitate to get in touch.
+
+#### Thank you for your interest in this Power BI project! Your contributions and feedback are highly appreciated.

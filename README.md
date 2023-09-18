@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Power BI Interactive Sales Dashboard
 
 Welcome to the Power BI Interactive Sales Dashboard project! In this repository, you will find a comprehensive dashboard that allows you to effortlessly track and analyze online sales data. This powerful tool provides a holistic view of your sales performance, enabling you to make data-driven decisions with ease.
@@ -19,3 +20,6 @@ Our dashboard offers a plethora of visualization types to cater to your analytic
 We are excited to share this Power BI project with you, and we hope it proves to be a valuable asset in your data analysis journey. Feel free to explore the repository and start using the interactive dashboard today to gain deeper insights into your online sales data. If you have any questions or feedback, please don't hesitate to reach out.
 
 Happy analyzing!
+=======
+"# Data-Science-Study-Material" 
+>>>>>>> 0b4f086 (first commit)

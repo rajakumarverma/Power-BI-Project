@@ -1,0 +1,104 @@
+Here's the list of 100 functions in Power BI along with their common use cases:
+
+1. **SUM**: Calculates the sum of numeric values in a column.
+2. **AVERAGE**: Calculates the average of numeric values in a column.
+3. **MIN**: Finds the minimum value in a column.
+4. **MAX**: Finds the maximum value in a column.
+5. **COUNT**: Counts the number of non-blank values in a column.
+6. **DISTINCTCOUNT**: Counts the number of unique values in a column.
+7. **CONCATENATE**: Combines text values from multiple columns into a single text string.
+8. **IF**: Evaluates a condition and returns one value if true and another if false.
+9. **SWITCH**: Evaluates multiple conditions and returns a value corresponding to the first condition that is true.
+10. **RELATED**: Retrieves a related value from another table based on the current row context.
+11. **RELATEDTABLE**: Retrieves a table related to the current row context.
+12. **CALCULATE**: Modifies filter context for a calculation expression.
+13. **ALL**: Removes filters from all columns in a table or all tables in the model.
+14. **ALLEXCEPT**: Removes filters from all columns except specified ones in a table.
+15. **FILTER**: Applies filters to a table or expression.
+16. **VALUES**: Returns a one-column table that contains unique values from a column.
+17. **RANKX**: Calculates the rank of a value in a column.
+18. **FIRSTDATE**: Returns the earliest date in a column.
+19. **LASTDATE**: Returns the latest date in a column.
+20. **DATEADD**: Adds a specified number of units to a date.
+21. **DATEDIFF**: Calculates the difference between two dates.
+22. **FORMAT**: Formats a value with the specified format.
+23. **SELECTEDVALUE**: Returns the value if only one value exists in the specified column.
+24. **EARLIER**: Returns a column value from a previous row context.
+25. **LOOKUPVALUE**: Returns a value from another table based on criteria.
+26. **ISBLANK**: Checks if a value is blank.
+27. **ISEMPTY**: Checks if a table is empty.
+28. **DIVIDE**: Safely divides two numbers, handling division by zero.
+29. **COUNTROWS**: Counts the number of rows in a table.
+30. **SUMX**: Calculates a sum across a table.
+31. **AVERAGEX**: Calculates an average across a table.
+32. **MINX**: Finds the minimum value across a table.
+33. **MAXX**: Finds the maximum value across a table.
+34. **COUNTAX**: Counts non-blank values across a table.
+35. **DISTINCT**: Returns a table with unique rows from a table or column.
+36. **TOPN**: Returns the top N rows based on a specified value.
+37. **PERCENTILEX**: Calculates the percentile of a value in a column.
+38. **CONCATENATEX**: Combines text values across a table into a single text string.
+39. **UNICHAR**: Returns the Unicode character that corresponds to the specified integer.
+40. **VALUES**: Returns a one-column table that contains unique values from a column or expression.
+41. **EXCEPT**: Returns all distinct rows from one table that are not in another table.
+42. **INTERSECT**: Returns all distinct rows that appear in both tables.
+43. **GENERATE**: Generates rows for each row in a table.
+44. **GENERATEALL**: Generates all possible combinations of values from specified columns.
+45. **ALLSELECTED**: Removes all filters from the current filter context except those on specified columns.
+46. **USERELATIONSHIP**: Specifies a relationship to be used in a calculation.
+47. **PATH**: Creates a calculated table of paths.
+48. **PATHCONTAINS**: Checks if a specified path exists in a calculated table.
+49. **PATHITEM**: Returns a specified item in a calculated table of paths.
+50. **PATHLENGTH**: Returns the length of the path in a calculated table.
+51. **UNION**: Combines two or more tables with identical column structures into a single table.
+52. **ADDCOLUMNS**: Adds calculated columns to a table based on expressions.
+53. **CALENDAR**: Generates a table with a date range based on specified start and end dates.
+54. **CALENDARAUTO**: Generates a calendar table based on the range of dates in the data model.
+55. **CALENDARAUTOEND**: Generates a calendar table with an end date determined by the latest date in the data model.
+56. **CALENDARBLANKROW**: Generates a calendar table with an additional blank row.
+57. **CALENDARAUTOEDIT**: Generates a calendar table for editing purposes.
+58. **CROSSJOIN**: Combines all rows from two or more tables, resulting in a Cartesian product.
+59. **DATATABLE**: Creates a table with specified column names and values.
+60. **DATATABLENOBLANKROW**: Creates a table without a blank row.
+61. **DATATABLENOBLANKROWWITHOPTIONS**: Creates a table without a blank row with additional options.
+62. **DISTINCTCOUNTNOBLANK**: Counts the number of distinct non-blank values in a column.
+63. **DISTINCTCOUNTNOBLANKROW**: Counts the number of distinct non-blank values in a column without a blank row.
+64. **FILTERS**: Returns a table of all active filters.
+65. **GROUPBY**: Groups rows in a table based on specified columns and calculates aggregate values.
+66. **KEEPFILTERS**: Retains existing filters while applying new ones.
+67. **KEEPFILTERSANDGROUP**: Retains existing filters and groups the table based on specified columns.
+68. **KEEPVALUES**: Retains existing values in a column while applying new filters.
+69. **KEEPVALUESANDGROUP**: Retains existing values in a column and groups the table based on specified columns.
+70. **SELECTCOLUMNS**: Creates a new table with selected columns from an existing table.
+71. **SELECTCOLUMNSGROUP**: Creates a new table with selected columns and groups the table based on specified columns.
+72. **SUMMARIZE**: Groups rows in a table based on specified columns and calculates aggregate values, similar to GROUPBY.
+73. **SUMMARIZECOLUMNS**: Groups rows in a table based on specified columns and calculates aggregate values, similar to SUMMARIZE.
+74. **TABLE**: Creates a table with specified column names and values.
+75. **TREATAS**: Applies the context of one table to another table.
+76. **UNION**: Combines two or more tables with identical column structures into a single table.
+77. **UNIONALL**: Combines two or more tables with identical column structures into a single table, retaining all rows.
+78. **USING**: Specifies the columns to use when joining tables.
+79. **USINGVAR**: Defines a variable that can be used within a DAX expression.
+80. **VALUE**: Converts a text string to a numeric value.
+81. **ISINSCOPE**: Checks if a column is in the current filter context.
+82. **NEXTMONTH**: Returns a table of dates for the next month.
+83. **NEXTQUARTER**: Returns a table of dates for the next quarter.
+84. **NEXTYEAR**: Returns a table of dates for the next year.
+85. **PREVIOUSMONTH**: Returns a table of dates for the previous month.
+86. **PREVIOUSQUARTER**: Returns a table of dates for the previous quarter.
+87. **PREVIOUSYEAR**: Returns a table of dates for the previous year.
+88. **TIME**: Creates a table of time values based on specified start and end times.
+89. **SAMEPERIODLASTYEAR**: Returns a table of dates for the same period in the previous year.
+90. **FIRSTNONBLANK**: Returns the first non-blank value in a column.
+91. **LASTNONBLANK**: Returns the last non-blank value in a column.
+92. **CONTAINS**: Checks if a table contains a specified value.
+93. **CONTAINSROW**: Checks if a table contains a specified row.
+94. **CONTAINSSTRING**: Checks if a text string contains another text string.
+95. **CONTAINSSTRINGEXACT**: Checks if a text string contains another text string exactly.
+96. **CONTAINSSTRINGPATH**: Checks if a text string contains a specified path.
+97. **CONTAINSSTRINGTABLE**: Checks if a text string contains a specified table.
+98. **CONTAINSSTRINGTRANSLATE**: Checks if a text string contains a specified translated text string.
+99. **CONTAINSSTRINGUNC**: Checks if a text string contains a specified UNC path.
+100. **CONTAINSSTRINGUNICODE**: Checks if a text string contains a specified Unicode character.
+
+These functions provide a wide range of capabilities for data manipulation, filtering, time intelligence, and more in Power BI.
